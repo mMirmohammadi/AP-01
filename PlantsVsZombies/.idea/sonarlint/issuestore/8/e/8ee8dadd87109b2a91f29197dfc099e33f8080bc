@@ -1,0 +1,25 @@
+
+msquid:S30081"PRename this field "FRAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÎ²8ÃÇŠ“ş-
+Nsquid:S00108£")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ8É¼ş-
+Jsquid:S1168é"+Return an empty collection instead of null.(¥¹ï8É¼ş-
+Osquid:S1602M",Remove useless curly braces around statement(ûäïëÿÿÿÿÿ8É¼ş-
+Psquid:S1602ª",Remove useless curly braces around statement(ûäïëÿÿÿÿÿ8¯¸ª—ÿ-
+Ssquid:S1611€"/Remove the parentheses around the "e" parameter(ûäïëÿÿÿÿÿ8É¼ş-
+Ssquid:S1611ª"/Remove the parentheses around the "e" parameter(ûäïëÿÿÿÿÿ8¯¸ª—ÿ-
+Qsquid:S1135"2Complete the task associated to this TODO comment.(¢®Ö8É¼ş-
+V
+squid:S106²"9Replace this use of System.out or System.err by a logger.(šõ³+8ÜÛ’¼ş-
+Vsquid:S1135¥"2Complete the task associated to this TODO comment.(ŸÛÌüÿÿÿÿ8É¼ş-
+Jsquid:S1168€"+Return an empty collection instead of null.(¥¹ï8É¼ş-
+Fsquid:S2189¾""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8É¼ş-
+rsquid:S00116*"SRename this field "DATABASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¢ò™8ÃÇŠ“ş-
+Psquid:S1602•",Remove useless curly braces around statement(ûäïëÿÿÿÿÿ8É¼ş-
+vsquid:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(çúÔãøÿÿÿÿ8É¼ş-
+zsquid:S30080"WRename this field "SEC_PER_TURN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ï¦­øÿÿÿÿ8ê ”ş-
+xsquid:S1192¨"YDefine a constant instead of duplicating this literal "can't insert zombie here" 3 times.(Üşš•8É¼ş-
+Qsquid:S3010=".Remove this assignment of "currentGameEngine".(­ğÌÀøÿÿÿÿ8ÃÇŠ“ş-
+Ssquid:S1611•"/Remove the parentheses around the "e" parameter(ûäïëÿÿÿÿÿ8É¼ş-
+Qsquid:S1135«"2Complete the task associated to this TODO comment.(Ûëã›8É¼ş-
+Jsquid:S1168ó"+Return an empty collection instead of null.(¥¹ï8É¼ş-
+Psquid:S1602€",Remove useless curly braces around statement(ûäïëÿÿÿÿÿ8É¼ş-
+Rsquid:S1611M"/Remove the parentheses around the "e" parameter(ûäïëÿÿÿÿÿ8É¼ş-

@@ -1,0 +1,109 @@
+@startuml
+
+package creature <<Rectangle>> {
+
+	Class Location() {
+		-x : int
+		-y : int
+		+dx : int
+		+dy : int
+		+move() : void
+	}
+
+	Class DNA {
+		-image : Image
+		-speed : int
+		-powerOfDestruction: int
+		+getImage() : Image
+		+getSpeed() : int
+		+getPowerOfDestruction() : int
+	}
+	DNA o-- Creature
+
+	Class Creature {
+		-DNA dna
+		-location : Location
+		#getDNA() : DNA
+		+getLocation() : Location
+		+nextTurn() : void
+	}
+
+	package being <<Rectangle>> {
+
+	DNA <|-- BeingDNA
+	Class BeingDNA {
+		-firstHealth : int
+		-gameCost : int
+		-shopCost : int
+		+getHealth() : int
+		+getGameCost() : int
+		+getShopCost() : int
+	}
+
+	Being <|-- Creature
+	Class Being {
+		-health: int
+		+attack() : void
+		+reduceHealth() : void
+	}
+
+	package Plant <<Rectangle>> {
+
+		Class PlantDNA {
+			-ammunitionDna : AmmunitionDNA
+			-sunIncome : int
+			-sunCooldown : int
+			-canContain : boolean
+			+getAmmunitinoDna() : AmmunitionDNA
+			+getSunIncome() : int
+			+getCanContain : boolean
+			#getAmmunitionDna : AmmunitionDNA
+		}
+
+		Being <|-- Plant
+		Class Plant {
+			-sunRemainingCooldown : int
+			-plantOnMe : Plant
+			-remainingAmmunitionCooldown : int
+			+createAmmunition() : void
+			+createPlantOnMe() : void
+			+die() : void
+		}
+		BeingDNA <|-- PlantDNA
+	}
+
+	package Zombie <<Rectangle>> {
+
+		Class ZombieDNA {
+			-whenIDie : ZombieDNA
+		}
+
+		Being <|-- Zombie
+		Class Zombie {
+			+move() : void
+			+die() : void
+		}
+		BeingDNA <|-- ZombieDNA
+	}
+	}
+	package Ammunition <<Rectangle>> {
+		DNA <|-- AmmunitionDNA
+		Class AmmunitionDNA {
+			-cooldown: int
+			-staticTurnNumber : int
+			-reduceSpeedRatio : int
+			-minimumDistanceForShoot : int
+			-crossingShield : boolean
+			+getCooldown() : int
+			+getStaticTurnNumber : int
+			+getReduceSpeedRatio : int
+			+getMinimumDistanceForShoot : int
+			+getCrossingShield : boolean
+		}
+
+		Class Ammunition {
+			+effect : void
+		}
+	}
+}
+@enduml

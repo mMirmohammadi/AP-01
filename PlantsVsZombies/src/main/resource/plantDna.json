@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Peashooter",
+    "lineState": "DRY",
+    "gamePrice": 2,
+    "firstHealth": 2,
+    "cooldown": 2,
+    "ammunitionDna": [{
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 2,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Snow Pea",
+    "lineState": "DRY",
+    "gamePrice": 3,
+    "firstHealth": 3,
+    "cooldown": 3,
+    "ammunitionDna": [{
+      "name": "Snow -Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 3,
+      "stunTurnNumber": 1,
+      "reduceSpeedRatio": 2,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Cabbage pult",
+    "lineState": "DRY",
+    "shopPrice": 13,
+    "gamePrice": 2,
+    "firstHealth": 2,
+    "cooldown": 3,
+    "ammunitionDna": [{
+      "name": "Cabbage",
+      "speed": 3,
+      "powerOfDestruction": 2,
+      "cooldown": 2,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 2
+    }]
+  },
+  {
+    "name": "Repeater",
+    "lineState": "DRY",
+    "shopPrice": 49,
+    "gamePrice": 3,
+    "firstHealth": 4,
+    "cooldown": 4,
+    "ammunitionDna": [{
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 3,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 2,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Threepeater",
+    "lineState": "DRY",
+    "shopPrice": 81,
+    "gamePrice": 4,
+    "firstHealth": 5,
+    "cooldown": 4,
+    "ammunitionDna": [{
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 4,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 3,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Cactus",
+    "lineState": "DRY",
+    "powerOfDestruction": 1,
+    "shopPrice": 101,
+    "gamePrice": 5,
+    "firstHealth": 5,
+    "cooldown": 4,
+    "ammunitionDna": [{
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 2,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Gatling Pea",
+    "lineState": "DRY",
+    "shopPrice": 61,
+    "gamePrice": 5,
+    "firstHealth": 3,
+    "cooldown": 4,
+    "ammunitionDna": [{
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 5,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 4,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Scaredy shroom",
+    "lineState": "DRY",
+    "gamePrice": 1,
+    "firstHealth": 1,
+    "cooldown": 2,
+    "ammunitionDna": [{
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 2,
+      "reduceSpeedRatio": 1,
+      "minimumDistanceForShoot": 3,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Kernel pult",
+    "lineState": "DRY",
+    "gamePrice": 3,
+    "firstHealth": 2,
+    "cooldown": 3,
+    "ammunitionDna": [{
+      "name": "Kernel",
+      "speed": 3,
+      "cooldown": 4,
+      "stunTurnNumber": 2,
+      "reduceSpeedRatio": 10,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 2
+    }]
+  },
+  {
+    "name": "Split Pea",
+    "lineState": "DRY",
+    "shopPrice": 49,
+    "gamePrice": 4,
+    "firstHealth": 3,
+    "cooldown": 4,
+    "ammunitionDna": [
+    {
+      "name": "Pea",
+      "speed": 3,
+      "powerOfDestruction": 1,
+      "cooldown": 3,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 1
+    },
+    {
+      "name": "Pea",
+      "speed": -3,
+      "powerOfDestruction": 1,
+      "cooldown": 3,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 1
+    }]
+  },
+  {
+    "name": "Explode o nut",
+    "lineState": "DRY",
+    "powerOfDestruction": 1,
+    "gamePrice": 4,
+    "firstHealth": 3,
+    "cooldown": 5,
+    "ammunitionDna": []
+  },
+  {
+    "name": "Melon-pult",
+    "lineState": "DRY",
+    "shopPrice": 28,
+    "gamePrice": 3,
+    "firstHealth": 3,
+    "cooldown": 3,
+    "ammunitionDna": [{
+      "name": "Melon",
+      "speed": 3,
+      "powerOfDestruction": 3,
+      "cooldown": 4,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 2
+    }]
+  },
+  {
+    "name": "Lily Pad",
+    "lineState": "WATER",
+    "shopPrice": 1,
+    "firstHealth": 1,
+    "cooldown": 1,
+    "contain": "DRY",
+    "ammunitionDna": []
+  },
+  {
+    "name": "Winter Melon",
+    "lineState": "DRY",
+    "shopPrice": 61,
+    "gamePrice": 4,
+    "firstHealth": 3,
+    "cooldown": 5,
+    "ammunitionDna": [{
+      "name": "Winter -Melon",
+      "speed": 3,
+      "powerOfDestruction": 3,
+      "cooldown": 4,
+      "stunTurnNumber": 1,
+      "reduceSpeedRatio": 2,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 1,
+      "type": 2
+    }]
+  },
+  {
+    "name": "Wall-nut",
+    "lineState": "DRY",
+    "gamePrice": 2,
+    "firstHealth": 4,
+    "cooldown": 4,
+    "ammunitionDna": []
+  },
+  {
+    "name": "Tangle Kelp",
+    "lineState": "WATER",
+    "powerOfDestruction": 100000,
+    "shopPrice": 1,
+    "gamePrice": 3,
+    "cooldown": 3,
+    "ammunitionDna": []
+  },
+  {
+    "name": "Tall-nut",
+    "lineState": "DRY",
+    "gamePrice": 4,
+    "firstHealth": 6,
+    "cooldown": 6,
+    "ammunitionDna": []
+  },
+  {
+    "name": "Potato Mine",
+    "lineState": "DRY",
+    "powerOfDestruction": 100000,
+    "shopPrice": 7,
+    "gamePrice": 2,
+    "firstHealth": 1,
+    "cooldown": 3,
+    "ammunitionDna": []
+  },
+  {
+    "name": "Magnet-shroom",
+    "lineState": "DRY",
+    "shopPrice": 33,
+    "gamePrice": 4,
+    "firstHealth": 2,
+    "cooldown": 4,
+    "ammunitionDna": [{
+      "name": "Bomb",
+      "powerOfDestruction": 100000,
+      "cooldown": 3,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 9,
+      "firstTimeHealth": 1,
+      "firstHealth": 100000,
+      "type": 3
+    }]
+  },
+  {
+    "name": "Sunflower",
+    "lineState": "DRY",
+    "gamePrice": 1,
+    "firstHealth": 2,
+    "cooldown": 2,
+    "ammunitionDna": [{
+      "name": "Sun",
+      "sunIncome": 1,
+      "cooldown": 2,
+      "firstHealth": 100000
+    }]
+  },
+  {
+    "name": "Twin Sunflower",
+    "lineState": "DRY",
+    "shopPrice": 31,
+    "gamePrice": 3,
+    "firstHealth": 2,
+    "cooldown": 5,
+    "ammunitionDna": [{
+      "name": "Sun",
+      "sunIncome": 2,
+      "cooldown": 2,
+      "firstHealth": 100000,
+      "type": 0
+    }]
+  },
+  {
+    "name": "Jalapeno",
+    "lineState": "DRY",
+    "shopPrice": 49,
+    "gamePrice": 4,
+    "firstHealth": 3,
+    "cooldown": 4,
+    "Explosive": true,
+    "ammunitionDna": [
+    {
+      "name": "Pea",
+      "speed": 100000,
+      "powerOfDestruction": 100000,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 100000,
+      "type": 4
+    },
+    {
+      "name": "Pea",
+      "speed": -100000,
+      "powerOfDestruction": 100000,
+      "reduceSpeedRatio": 1,
+      "productionNumberOfAmmunitionPerUse": 1,
+      "firstHealth": 100000,
+      "type": 4
+    }]
+  }
+] 

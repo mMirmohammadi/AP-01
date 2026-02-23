@@ -1,0 +1,58 @@
+@startuml
+
+package page <<Rectangle>> {
+
+  class ShopPage {
+    -Store store
+  }
+  Page <|.. ShopPage
+
+  Class PageResult {
+    +boolean isAborted
+    +U result
+  }
+
+  Interface Page {
+    +PageResult action()
+  }
+
+  class Form {
+    -String[] asks
+  }
+  Page <|.. Form
+
+  class ChooseDeckPage {
+    -DNA[] options
+    -Function<DNA[],boolean> validator
+  }
+  Page <|.. ChooseDeckPage
+
+
+  package Menu <<Rectangle>> {
+
+    class Menu {
+      -Button[] buttons
+    }
+    Page <|.. Menu
+
+    interface Button {
+      +String getLabel()
+      +Page run()
+    }
+    Menu o-- Button
+
+    class LinkButton {
+      -String label
+      -Page page
+    }
+    Button <|.. LinkButton
+
+    class ActionButton {
+      -String name
+      -Consumer action
+    }
+    Button <|.. ActionButton
+  }
+}
+
+@enduml

@@ -1,0 +1,21 @@
+
+squid:S1319«"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ò±í8„È´¸ÿ-
+squid:S1319¯"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹Š£œ8„È´¸ÿ-
+osquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(’†âóıÿÿÿÿ8„È´¸ÿ-
+qsquid:S2095„"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(·‰¹Èüÿÿÿÿ8„È´¸ÿ-
+csquid:S2118C"@Make the "java.util.Map" class "Serializable" or don't write it.(€½¹ªûÿÿÿÿ8È¢™äş-
+wsquid:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(èá‘8È¢™äş-
+†"squid:ClassVariableVisibilityCheck,"QMake score a static final constant or non-public and provide accessors if needed.(«ÊÉ˜8È¢™äş-
+isquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(ıÅ¼Ö8È¢™äş-
+lsquid:S3008)"NRename this field "ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¤é8È¢™äş-
+ssquid:S2095…"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(¾Å¨Îûÿÿÿÿ8„È´¸ÿ-
+qsquid:S2095A"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(šÍîÑşÿÿÿÿ8È¢™äş-
+squid:S1319¿"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨ÕØ¹8„È´¸ÿ-
+”squid:S1319·"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(øÚÏùÿÿÿÿ8½¡ı­€.
+osquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(ÁøÎ¢ùÿÿÿÿ8„È´¸ÿ-
+"squid:ClassVariableVisibilityCheck1"SMake myToken a static final constant or non-public and provide accessors if needed.(¨¶‚ùÿÿÿÿ8½¡ı­€.
+Msquid:S1611x"/Remove the parentheses around the "x" parameter(ŒµäŸ8„È´¸ÿ-
+vsquid:S3008*"SRename this field "BY_TOKEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª–öúÿÿÿÿ8½¡ı­€.
+Ksquid:S1602ğ",Remove useless curly braces around statement(¶Üºı8„È´¸ÿ-
+ssquid:S2095B"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ˆÔ§ğşÿÿÿÿ8È¢™äş-
+Psquid:S14441"-Make this "public static myToken" field final(¨¶‚ùÿÿÿÿ8½¡ı­€.

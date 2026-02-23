@@ -1,0 +1,6 @@
+
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¡“öÍúÿÿÿÿ8ö§×‘þ-
+wsquid:S1210'"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(§þŽ™8Ìê†ó-
+°%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'exception.EndGameException', as it cannot be thrown from method's body.(žÎóÉúÿÿÿÿ8ö§×‘þ-
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(Çº•¦8ö§×‘þ-
+"squid:ClassVariableVisibilityCheck"XMake creatureNode a static final constant or non-public and provide accessors if needed.( öãÕ8ö§×‘þ-

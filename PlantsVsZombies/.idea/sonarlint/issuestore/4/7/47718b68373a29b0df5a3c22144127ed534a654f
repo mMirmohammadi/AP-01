@@ -1,0 +1,10 @@
+
+Hsquid:S1602C",Remove useless curly braces around statement(ßˆ¶üÿÿÿÿ
+Ssquid:UselessImportCheck"/Remove this unused import 'javafx.scene.Scene'.(Õü²
+Csquid:S16028",Remove useless curly braces around statement(¶Üºı
+bsquid:UselessImportCheck"9Remove this unused import 'javafx.scene.shape.Rectangle'.(ÖÉ­Œşÿÿÿÿ
+Fsquid:S1611."/Remove the parentheses around the "h" parameter(©şŒ‚
+Gsquid:S1068"+Remove this unused "message" private field.( ÏËÖşÿÿÿÿ
+6squid:S16596"Declare "n" on a separate line.(Ê†Ü­
+Xsquid:UnusedPrivateMethodN".Remove this unused private "printHelp" method.(²Ó‹ıÿÿÿÿ
+‰squid:S1319"rThe type of the "buttons" object should be an interface such as "List" rather than the implementation "ArrayList".(”œì

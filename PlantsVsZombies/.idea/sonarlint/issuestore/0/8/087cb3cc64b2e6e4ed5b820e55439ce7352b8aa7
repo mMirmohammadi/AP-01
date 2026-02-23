@@ -1,0 +1,5 @@
+
+Psquid:S1118":Add a private constructor to hide the implicit public one.(šÌğ^
+tsquid:S1845"]Rename field "RED" to prevent any misunderstanding/clash with method "red" defined on line 7.(€ùÁ°
+…squid:S1845"bRename field "GREEN" to prevent any misunderstanding/clash with method "green" defined on line 11.(à‘î®øÿÿÿÿ8…¬øŒô-
+‡squid:S1845"dRename field "YELLOW" to prevent any misunderstanding/clash with method "yellow" defined on line 16.(ÍüÔòûÿÿÿÿ8…¬øŒô-

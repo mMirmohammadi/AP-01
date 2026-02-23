@@ -1,0 +1,4 @@
+
+fsquid:S00107#"BConstructor has 12 parameters, which is greater than 7 authorized.(Âığşÿÿÿÿ8İ©ÛÃı-
+–squid:S1319$"xThe type of the "ammunitionDna" object should be an interface such as "List" rather than the implementation "ArrayList".(à¯Â8İ©ÛÃı-
+xsquid:S00116"TRename this field "Explosive" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÕåìşÿÿÿÿ8á”Œó-

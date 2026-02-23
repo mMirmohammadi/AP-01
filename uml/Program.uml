@@ -1,0 +1,41 @@
+@startuml
+
+package Account <<Rectangle>> {
+
+class Account {
+  -String username
+  -String password
+  -String passwordSalt
+  -Store store
+  -int score
+  +String getUsername()
+  +setUsername(String)
+  +setPassword(String)
+  +boolean checkPassword(String)
+  +getUserByUsername(String)
+  +createUser(String, String)
+}
+
+class Store {
+  -Account owner
+  -UniversalCard[] myCards
+  +int money
+  +buyCard(UniversalCard)
+  +UniversalCard[] getList(boolean buyed, boolean unbuyed)
+}
+
+Account --- Store
+
+class AccountPage {
+  -Account account
+}
+
+}
+
+class Program {
+  +Account currentUser
+  +main(String[] args)
+}
+
+Program o-- Account
+@enduml

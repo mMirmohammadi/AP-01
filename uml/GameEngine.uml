@@ -1,0 +1,192 @@
+@startuml
+
+package Game <<Rectangle>> {
+
+  class PauseMenu {
+  
+  }
+
+  class GamePage {
+  
+  }
+
+  package Graphic <<Rectangle>> {
+    class Graphic {
+      -GameEngine engine
+      +render(int turnNumber, int frameNumber)
+    }
+  }
+
+  enum GameMod {
+    Day,
+    Water,
+    Rail,
+    Zombie,
+    Pvp
+  }
+
+  enum GameState {
+     Loading,
+     Running,
+     Paused,
+     Finished,
+     Aborted,
+     Wating 
+  }
+
+  class GameDNA {
+    - final mod : GameMod
+    - final plantPlayer : PlantPlayer
+    - final ZombiePlayer : ZombiePlayer
+  }
+
+  class GameEngine {
+    - gameState : GameState
+    - final pauseMenu : PauseMenu
+    - gameState : PlayGroundData
+    - final baseData : GameDNA
+  }
+
+}
+
+package gameData <<Rectangle>> {
+
+  class PlayGroundData {
+    - frameNo : Integer
+    - turnNo : Integer
+    - waveNo : Integer
+    ..
+    - zombies : List<Zombie>
+    - plants : List<Plants>
+    - ammunitions : List<Ammunition>
+    - line : List<Line> 
+    ..
+    - newZombies : List<Zombie>
+    - newPlants : List<Plants>
+    - newAmmunitions : List<Ammunition>
+    ..
+    - DeadZombies : List<Zombie>
+    - DeadPlants : List<Plants>
+    - DeadAmmunitions : List<Ammunition>
+    ..
+    ..Setter..
+    ..Getter..
+    ..Data Query..
+    ..New Zombie/Plant..
+    ..New duck/latter..
+    ..Reset..
+  }
+
+}
+
+package line <<Rectangle>> {
+
+  enum LineState {
+    water
+    dry
+  }
+
+  class Line {
+      - final lineState : LineState
+      - final LawnMower
+      ..Getter..
+      ..Setter..
+  }
+
+}
+
+package player <<Rectangle>> {
+
+  abstract class Player {
+    {abstract} void nextTurn(PlayGroundData)
+  }
+
+  package zombie_player <<Rectangle>> {
+
+    interface ZombiePlayer {
+
+    }
+
+    class DayZombieAI {
+
+    }
+
+    class WaterZombieAI {
+
+    }
+
+    class RailZombieAI {
+
+    }
+
+    class ZombieUser {
+
+    }
+
+    class ZombiePlayerProfile {
+        - coins : Integer
+        ..Getter..
+        ..
+        + void addCoin(Integer)
+        + useZombie(Integer)
+    }
+
+  }
+
+
+  package plant_player <<Rectangle>> {
+    interface PlantPlayer {
+
+    }
+
+    class ZombieModPlantAI {
+
+    }
+
+    class PlantUser {
+
+    }
+
+    class PlantPlayerProfile {
+        - sun : Integer
+        ..Getter..
+        ..
+        + void addSun(Integer)
+        + void usePlant(Integer)
+    }
+
+  }
+
+}
+
+ZombiePlayer o-- ZombiePlayerProfile
+ZombiePlayer --|> Player
+DayZombieAI ..|> ZombiePlayer
+WaterZombieAI ..|> ZombiePlayer
+RailZombieAI ..|> ZombiePlayer
+ZombieUser ..|> ZombiePlayer
+
+GameEngine ..> GameDNA
+GameEngine o-- PlayGroundData
+GameEngine ..> PauseMenu
+GameEngine o-- ZombiePlayer
+GameEngine o-- PlantPlayer
+
+PlantPlayer o-- PlantPlayerProfile
+PlantPlayer --|> Player
+ZombieModPlantAI ..|> PlantPlayer
+PlantUser ..|> PlantPlayer
+
+PlayGroundData o-- Line
+
+GamePage o-- Graphic
+Graphic o-- GameEngine
+GamePage ..> PauseMenu
+
+
+GamePage o-- GameEngine
+
+Player ..> PlayGroundData
+
+@enduml
+

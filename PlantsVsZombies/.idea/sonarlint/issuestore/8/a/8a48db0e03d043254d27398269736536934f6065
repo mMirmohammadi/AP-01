@@ -1,0 +1,9 @@
+
+gsquid:HiddenFieldCheck0"9Rename "tName" which hides the field declared at line 22.(¹‘Üûÿÿÿÿ8ØÂ´ìş-
+Bsquid:S1659"&Declare "progress" on a separate line.(—ÛÌ²üÿÿÿÿ
+T
+squid:S106F"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+Asquid:S1181E"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+T
+squid:S106G"9Replace this use of System.out or System.err by a logger.(Û™­ÿÿÿÿÿ
+Dsquid:S1659"!Declare "rec" on a separate line.(—ÛÌ²üÿÿÿÿ8Æ§éş-
